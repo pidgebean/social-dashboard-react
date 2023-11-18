@@ -1,0 +1,52 @@
+{
+    "small card": [
+      {
+        "id": 1,
+        "img": "facebook",
+        "followers": 87,
+        "percent": "3"
+      },
+      {
+        "id": 2,
+        "img": "facebook",
+        "followers": 52,
+        "percent": "2"
+      },
+      {
+        "id": 3,
+        "img": "instagram",
+        "followers": 5462,
+        "percent": "2257"
+      },
+      {
+        "id": 4,
+        "img": "instagram",
+        "followers": "52k",
+        "percent": "1375"
+      },
+      {
+        "id": 5,
+        "img": "twitter",
+        "followers": 117,
+        "percent": "303"
+      },
+      {
+        "id": 4,
+        "img": "twitter",
+        "followers": "507",
+        "percent": "553"
+      },
+      {
+        "id": 4,
+        "img": "youtube",
+        "followers": "107",
+        "percent": "19"
+      },
+      {
+        "id": 4,
+        "img": "youtube",
+        "followers": "1407",
+        "percent": "12"
+      }
+    ]
+  }
