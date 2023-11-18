@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  background-color: hsl(0, 0%, 100%);
+  overflow-x: hidden;
+  padding-left: 100px;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+nav .left{
+  margin-right: 900px;
+}
+
+.section-1{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;
+  align-items: center; */
+  /* padding-left: 60px; */
+}
+
+.followers-card{
+  background-color: hsl(227, 47%, 96%);
+  color: hsl(228, 34%, 66%);
+  width: 300px;
+  height: 250px;
+  /* margin: 10px; */
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.followers-card .top{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.top img{
+  width: 20px;
+  height: 20px;
+}
+
+.middle .followers-num{
+  font-size: 50px;
+  color: black;
+  font-weight: bold;
+}
+
+.middle .followers{
+  font-size: 18px;
+}
+
+.followers-card .middle{
+  display: flex;
+  flex-direction: column;
+  justify-content: middle;
+  align-items: center;
+}
+
+.followers-card .bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom{
+  padding-top: 20px;
+}
+
+.bottom img{
+  width: 20px;
+  height: 20px;
+}
+
+.section-2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.views-card{
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(227, 47%, 96%);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 150px;
+  padding: 30px;
+}
+
+.section-2 .top{
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.section-2 .top .page-view{
+  margin-right: 120px;
+  font-size: 15px;
+}
+
+.section-2 .bottom{
+  display: flex;
+  flex-direction: row;
+  align-items:baseline;
+}
+
+.section-2 .number{
+  font-size: 50px;
+  margin-right: 130px;
+  font-weight: bold;
+}
