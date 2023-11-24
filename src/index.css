@@ -28,6 +28,16 @@ nav .left{
   flex-direction: row;
 }
 
+.light{
+  background-color: hsl(227, 47%, 96%);
+  color: black;
+}
+
+.dark{
+  background-color: hsl(228, 28%, 20%);
+  color: hsl(228, 34%, 66%);
+}
+
 .followers-card{
   background-color: hsl(227, 47%, 96%);
   color: hsl(228, 34%, 66%);
