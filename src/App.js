@@ -23,7 +23,7 @@ function App() {
       
       <div className="section-1">
         <FollowersCard
-          className={mode ? 'dark' : 'light'}
+          className='big-card-light'
           image = {'../images/icon-facebook.svg'}
           followers={1987}
           today={12}

@@ -5,10 +5,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+
+  --bg: hsl(0, 0%, 100%);
+  --followers-bg: hsl(227, 47%, 96%);
+  --followers-txt: hsl(228, 34%, 66%);
+  --middle-followers-txt: black;
+  --views-card-bg: hsl(227, 47%, 96%);
 }
 
 .body{
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(--bg);
   overflow-x: hidden;
   padding-left: 100px;
 }
@@ -23,24 +30,30 @@ nav .left{
   margin-right: 900px;
 }
 
+nav .right{
+  /* background-color: red; */
+  background-color: blue;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus{
+  background-color: red;
+  --bg: hsl(230, 17%, 14%);
+  --followers-bg: hsl(232, 19%, 15%);
+  --followers-txt: hsl(228, 34%, 66%);
+  --middle-followers-txt: hsl(228, 34%, 66%);
+  --views-card-bg: hsl(228, 28%, 20%);
+}
+
 .section-1{
   display: flex;
   flex-direction: row;
 }
 
-.light{
-  background-color: hsl(227, 47%, 96%);
-  color: black;
-}
-
-.dark{
-  background-color: hsl(228, 28%, 20%);
-  color: hsl(228, 34%, 66%);
-}
-
 .followers-card{
-  background-color: hsl(227, 47%, 96%);
-  color: hsl(228, 34%, 66%);
+  background-color: var(--followers-bg);
+  color: var(--followers-txt);
   width: 300px;
   height: 250px;
   /* margin: 10px; */
@@ -66,7 +79,7 @@ nav .left{
 
 .middle .followers-num{
   font-size: 50px;
-  color: black;
+  color: var(--middle-followers-txt);
   font-weight: bold;
 }
 
@@ -107,7 +120,7 @@ nav .left{
 .views-card{
   display: flex;
   flex-direction: column;
-  background-color: hsl(227, 47%, 96%);
+  background-color: var(--views-card-bg);
   margin-right: 20px;
   margin-bottom: 20px;
   width: 300px;
